@@ -1271,6 +1271,7 @@ p {
     width: 152px;
     height: 152px;
     border-radius: 100%;
+
 }
 
 .expert-slider-item__img img {
@@ -1281,15 +1282,16 @@ p {
     object-fit: cover;
     width: 152px;
     height: 152px;
+
 }
 
-.expert-slider-item__img i {
+.expert-slider-item i {
     color: #65e496;
     position: absolute;
-    top: -1%;
-    right: 0;
+    top: 0;
+    right: 43%;
     font-size: 48px;
-    visibility: visible;
+
 }
 
 @media screen and (min-width: 36rem) {
